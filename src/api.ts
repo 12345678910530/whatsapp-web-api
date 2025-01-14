@@ -22,7 +22,8 @@ export default class API {
       throw new Error('Unexpected error retrieving message elements')
 
     return [].slice.call(msgList.children)
-  }
+  }si
+  
 
   parseConversationElement (element: Element): IConversationItem {
     if (
